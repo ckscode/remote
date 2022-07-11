@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+body{
+  background-color: hsl(0, 0%, 98%);
+   box-sizing: border-box;
+}
+.App{
+  width:100%;
+  position: relative;
+  transition: margin-left .5s;
+}
+.App h1{
+  font-family: 'Epilogue', sans-serif;
+  color:hsl(0, 0%, 8%);
+}
+.App p{
+  font-family: 'Epilogue', sans-serif;
+  font-size: 18px;
+}
+
+.navbar nav{
+    padding-top:0;
+    padding-left:2em;
+    margin:0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .down{
+    background: url('../images/down.svg') no-repeat center;
+  
+  }
+  .up{
+    background: url('../images/up.svg') no-repeat center;
+  }
+  .icon{
+  
+    height: 20px;
+    width: 20px;
+  }
+  nav p{
+    margin:1em 2em;
+   display: flex;
+   align-items: center;
+   color:hsl(0, 0%, 41%);
+   cursor:pointer
+  }
+  
+  nav p:hover{
+    color:hsl(0, 0%, 8%);
+    transition: 0.3s;
+  }
+  
+  nav .nav-div{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    width:50%;
+   
+  }
+
+  nav .nav-div2{
+    width:50%;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  button{
+    padding:1em 1.5em;
+    margin:1em;
+  background-color: hsl(0, 0%, 8%);
+  border-radius: 15px;
+  color:hsl(0, 0%, 98%);
+  border:none;
+  border:1px solid hsl(0, 0%, 8%); 
+  font-family: 'Epilogue', sans-serif;
+  font-size: 18px
+  }
+  button:hover{
+    background-color: hsl(0, 0%, 98%);
+    border:1px solid hsl(0, 0%, 8%); 
+    color:hsl(0, 0%, 8%);
+  
+  }
+  .menus{
+    display: flex;
+    align-items: center;
+  }
+  .modal{
+    display:none;
+  }
+  .menubtn{
+    display:none
+  }
+  @media all and (max-width:1000px){
+    .menus{
+      display:none
+    }
+     .navbar nav{
+      padding:10px 10px
+     }
+     nav p{
+      margin:2em
+     }
+    nav .nav-div{
+      justify-content: space-between;
+      align-items: center;
+      width:100%
+    }
+    nav .nav-div2{
+    
+        display:none;
+      
+      }
+   
+    .menubtn{
+        display: block;
+      padding-right:1em
+    }
+    .modal{
+      display: block;
+      z-index: 1;
+      height:101vh;
+      width:100vw;
+      right:0;
+      left:0;
+      top:0;
+      bottom:0;
+      position:fixed;
+      background-color: rgba(10, 10, 10, 0.507);
+    }
+    .sidebar{
+      transition: 1s;
+      display: flex;
+      justify-content: flex-end;
+    }
+     .sidebarcnt{
+      padding-top:1em;
+      background-color: hsl(0, 0%, 98%);
+      width:60%;
+      height: 101vh;
+     }
+     .sidebarcnt p{
+      font-size: 15px;
+     }
+     .closebtn{
+      display: flex;
+      justify-content: flex-end;
+      padding:8px 38px;
+       transition: all .5s ease-in-out;
+     }
+    .login{
+      text-align: center;
+    }
+    .login button{
+      background-color:hsl(0, 0%, 98%) ;
+      color:hsl(0, 0%, 38%);
+      border:1px solid hsl(0, 0%, 41%);
+      width:80%;
+      padding:12px;
+      font-family: 'Epilogue', sans-serif;
+      font-size: 19px;
+    }
+  }

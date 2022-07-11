@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+.link,.company{
+    position:absolute;
+    top:10%;
+    left:5%;
+    z-index: 99;
+    border-radius: 8%;
+    transition: 1s;
+    background-color:hsl(0, 0%, 98%) ;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.company{
+    top:10%;
+    left:20%;
+}
+
+.link p{
+    display: flex;
+    align-items: center;
+
+}
+.link a,.company a{
+    cursor:pointer;
+    text-decoration: none;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 18px;
+}
+.link i{
+    height:20px;
+    width:20px;
+    margin:4px;
+}
+.link2 i{
+    height:20px;
+    width:20px;
+    margin:2px;
+}
+.link2 a,.company2 a{
+    text-decoration: none;
+
+}
+.link2 p,.company2 p{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.todo{
+    background:url('../images/todo.svg') no-repeat center;
+  
+}
+.calender{
+    background: url('../images/calendar.svg') no-repeat center;
+}
+.reminder{
+    background: url('../images/reminders.svg') no-repeat center;
+}
+.planning{
+    background: url('../images/planning.svg') no-repeat center;
+}
