@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/remote/static/css/main.86fed5bf.css",
+    "main.js": "/remote/static/js/main.9ef83d14.js",
+    "static/js/787.453391a7.chunk.js": "/remote/static/js/787.453391a7.chunk.js",
+    "static/media/desktopimg.png": "/remote/static/media/desktopimg.50cc22fddeb0c072b414.png",
+    "static/media/mobileimg.png": "/remote/static/media/mobileimg.adefc8b1bbed2ca80470.png",
+    "static/media/databiz.svg": "/remote/static/media/databiz.d1e7955f847e089183caf61eb54feb51.svg",
+    "static/media/logo.svg": "/remote/static/media/logo.1c174ccea84ec59ff8801662c788919d.svg",
+    "static/media/maker.svg": "/remote/static/media/maker.3859368b1ba7e579d814353870c9edb0.svg",
+    "static/media/meet.svg": "/remote/static/media/meet.2d6ffbad4108ea24377c66fe7655736e.svg",
+    "static/media/audiophile.svg": "/remote/static/media/audiophile.8c670cdffe9fb124c848d53dcbee7913.svg",
+    "index.html": "/remote/index.html",
+    "static/media/reminders.svg": "/remote/static/media/reminders.d573f5028c4469edf76a.svg",
+    "static/media/planning.svg": "/remote/static/media/planning.7264cc64a81fa348da1d.svg",
+    "static/media/calendar.svg": "/remote/static/media/calendar.238c231afbc7d43b81c6.svg",
+    "static/media/todo.svg": "/remote/static/media/todo.84eeba8f3b9a1811c1ea.svg",
+    "static/media/close.svg": "/remote/static/media/close.3f33fd68b142340b7eb8c6887f92ee0c.svg",
+    "static/media/menu.svg": "/remote/static/media/menu.863803c904916606b7a1998b3c5736aa.svg",
+    "static/media/down.svg": "/remote/static/media/down.50b38e57ce75ca709ec8.svg",
+    "static/media/up.svg": "/remote/static/media/up.bebf05132571af33611e.svg",
+    "main.86fed5bf.css.map": "/remote/static/css/main.86fed5bf.css.map",
+    "main.9ef83d14.js.map": "/remote/static/js/main.9ef83d14.js.map",
+    "787.453391a7.chunk.js.map": "/remote/static/js/787.453391a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86fed5bf.css",
+    "static/js/main.9ef83d14.js"
+  ]
+}
